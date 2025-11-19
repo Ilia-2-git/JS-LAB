@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <div class="func-panel">
+        <input type="text" id="name-input">
+        <select name="task-type" id="task-selector">
+            <option value="todo">todo</option>
+            <option value="in progress">In Progress</option>
+            <option value="done">Done</option>
+        </select>
+        <button onclick="handleSubmitTask()">Submit</button>
+    </div>
+    <ul>
+    </ul>
+</body>
+</html>
