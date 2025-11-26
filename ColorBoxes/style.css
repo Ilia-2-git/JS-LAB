@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    display: flex;
+}
+.counter{
+    width: 50%;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter p {
+    font-size: 3.5rem;
+}
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.box{
+    width: 25%;
+    aspect-ratio: 1/1;
+    background-color: rgb(145, 137, 137);
+    border: 2px solid rgb(69, 68, 68);
+    border-radius: 1rem;
+}
