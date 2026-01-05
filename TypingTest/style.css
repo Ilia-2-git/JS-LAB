@@ -1,0 +1,34 @@
+body{
+    font-family: helvetica;
+    max-height: 100vh;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    background-color: rgb(211, 211, 211);
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+}
+header .start{
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 4px;
+    background-color: rgb(39, 125, 223);
+    color: white;
+}
+.main{
+    height: 85vh;
+    background-color: antiquewhite;
+    display: flex;
+    /* perfect center */
+    align-items: center;
+    justify-content: center;
+}
+.main-display{
+    font-size: 2rem;
+}
