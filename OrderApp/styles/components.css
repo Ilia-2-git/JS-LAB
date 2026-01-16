@@ -1,0 +1,29 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
+/* Card style */
+.card{
+    width: 25%;
+    height: 30vh;
+    aspect-ratio: 1/1;
+    border-radius: .5rem;
+    background-color: var(--card-bg);
+    display: flex;
+    flex-direction:column ;
+    overflow: hidden;
+}
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
+.card h1{
+    font-size: 1.2rem;
+}
+.card h1,span{
+    padding-right: 1rem;
+}
